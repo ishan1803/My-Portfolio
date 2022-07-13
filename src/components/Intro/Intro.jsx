@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import boy from "../../img/Ishan.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -27,11 +27,10 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey There ! I am </span>
+          <span>Ishan Saxena</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            A super creative and focused individual who thrives in fast paced and under pressure situations
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +38,9 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href ="https://github.com/ishan1803" target="blank"><img  src={Github} alt="Ishan's Github" /></a>
+          <a href ="linkedin.com/in/ishan-saxena-4757301a7" target="blank"><img src={LinkedIn} alt="Ishan's LinkedIn" /></a>
+          <a href ="https://www.instagram.com/movies.match/" target="blank"><img src={Instagram} alt="Ishan's Insta" /></a>
         </div>
       </div>
       {/* right image side */}
@@ -75,7 +74,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Born" text2="Manager" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from './Resume.pdf';
 
 const Services = () => {
   // context
@@ -24,12 +24,12 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>What I </span>
+        <span>Can Offer</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          I am complete pacakage with ability to Design , Develop and Market
           <br />
-          ispum is simpley dummy text of printing
+          I can also bring creativity on the table and the leadership to implement it
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Developer"}
+            detail={"C++, Html, Css, JavaScript, Reactjs, Nodejs, Express, MySQL, Wordpress"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Web Optimization"}
+            detail={"UI/UX, Data Science, Digtal Marketing, SEO, Figma, Sketch, Photoshop, Content Writing"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,10 +70,8 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            heading={"Soft Skills"}
+            detail={ "Public Speaking, Team Leadership, Project Management, Punctuality, Financial Management"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>

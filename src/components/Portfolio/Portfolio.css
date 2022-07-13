@@ -1,3 +1,4 @@
+
 .portfolio {
   display: flex;
   align-items: center;
@@ -20,6 +21,9 @@
 }
 
 /* slider */
+.portfolio .swiper .h1{
+  color: orange;
+}
 .portfolio .swiper{
     overflow: visible!important;
 }
@@ -34,7 +38,10 @@
 }
 .portfolio img {
   width: 19rem;
+  height: 10rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
 }
+
+
 

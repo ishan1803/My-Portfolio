@@ -16,9 +16,22 @@
   gap: 4rem;
   color: white;
 }
-.f-icons {
+.f-icons-1 {
   display: flex;
   gap: 2rem;
+}
+
+.i-icons-1 {
+  margin-top: -3rem;
+  display: flex;
+  gap: 0rem;
+  background-color: white;
+}
+.i-icons-1 > * {
+  transform: scale(0.5);
+}
+.i-icons-1 > *:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 480px){

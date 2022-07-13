@@ -1,21 +1,24 @@
 import React from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import Github from "../../img/github.png";
+import LinkedIn from "../../img/linkedin.png";
+import Instagram from "../../img/instagram.png";
 
 const Footer = () => {
   return (
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>Zainkeepscode@gmail.com</span>
+        <span>ishu18032001@gmail.com</span>
         <div className="f-icons">
-          <Insta color="white" size={"3rem"} />
-          <Facebook color="white" size={"3rem"} />
-          <Gitub color="white" size={"3rem"} />
+        <div className="i-icons-1">
+          <a href ="https://github.com/ishan1803" target="blank"><img  src={Github} alt="Ishan's Github" /></a>
+          <a href ="linkedin.com/in/ishan-saxena-4757301a7" target="blank"><img src={LinkedIn} alt="Ishan's LinkedIn" /></a>
+          <a href ="https://www.instagram.com/movies.match/" target="blank"><img src={Instagram} alt="Ishan's Insta" /></a>
         </div>
+        </div>
+        
       </div>
     </div>
   );
