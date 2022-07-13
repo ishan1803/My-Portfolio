@@ -31,7 +31,7 @@ const Services = () => {
           <br />
           I can also bring creativity on the table and the leadership to implement it
         </spane>
-        <a href={Resume} download>
+        <a href="https://drive.google.com/file/d/1JFuPALBlAFJWhRQEXrVptQZeQKQaVwwa/view?usp=sharing" download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
